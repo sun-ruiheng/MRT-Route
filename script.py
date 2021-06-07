@@ -53,7 +53,7 @@ def new_route(start_point=None, end_point=None):
   shortest_route = get_route(start_point, end_point)
   if shortest_route:
     shortest_route_string = '\n'.join(shortest_route)
-    print("The shortest metro route from {0} to {1} is:\n{2}".format(start_point, end_point, shortest_route_string))
+    print("The shortest MRT route from {0} to {1} is:\n{2}".format(start_point, end_point, shortest_route_string))
 
   again = input("\nWould you like to find out about another route? Enter y/n: ")
   if again == 'y':
