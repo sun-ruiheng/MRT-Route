@@ -1,0 +1,30 @@
+
+landmark_choices = {
+  'a': 'Changi Airport',
+  'b': 'Esplanade',
+  'c': 'Gardens by the Bay',
+  'd': 'Singapore Art Museum',
+  'e': 'Science Centre',
+  'f': 'Jurong Bird Park',
+  'g': 'Singapore Zoo',
+  'h': 'National University of Singapore',
+  'i': 'National Technological University',
+  'j': 'Fort Canning Park',
+  'k': 'CHIJMES',
+  'l': 'Singapore River',
+  'm': 'Merlion Park',
+  'n': 'Chinatown',
+  'o': 'Little India',
+  'p': 'Singapore Discovery Centre',
+  'q': 'Raffles Institution',
+  'r': 'West Coast Park',
+  's': 'East Coast Park',
+  't': 'Vivo City',
+  'u': 'Lau Pa Sat',
+  'v': 'Kampung Glam',
+  'w': 'Suntec City',
+  'x': 'Singapore Flyer',
+  'y': 'Marina Bay Sands',
+  'z': 'MacRitchie Nature Trail'
+}
+
