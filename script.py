@@ -9,8 +9,8 @@ for letter, landmark in landmark_choices.items():
   landmark_string += f'{letter} - {landmark}\n'
 
 def greet():
-  print("Hi there and welcome to SkyRoute!")
-  print("We'll help you find the shortest route between the following Vancouver landmarks:\n" + landmark_string)
+  print("Welcome, Traveller!")
+  print("We'll help you find the shortest route between the following Singapore landmarks:\n" + landmark_string)
 
 def set_start_and_end(start_point, end_point):
   if start_point:
@@ -55,7 +55,7 @@ def new_route(start_point=None, end_point=None):
     shortest_route_string = '\n'.join(shortest_route)
     print("The shortest metro route from {0} to {1} is:\n{2}".format(start_point, end_point, shortest_route_string))
 
-  again = input("Would you like to find out about another route? Enter y/n: ")
+  again = input("\nWould you like to find out about another route? Enter y/n: ")
   if again == 'y':
     print(landmark_string)
     new_route()
