@@ -1,6 +1,6 @@
 
   
-vc_metro = {
+mrt_links = {
    'Changi Airport': set(['Expo']),
   'Expo': set(['Changi Airport', 'Tanah Merah']),
   'Tanah Merah': set(['Expo', 'Bedok']),

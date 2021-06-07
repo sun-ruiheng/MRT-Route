@@ -1,6 +1,6 @@
 from graph_search import bfs, dfs
-from vc_metro import vc_metro
-from vc_landmarks import vc_landmarks
+from mrt_links import mrt_links
+from landmarks import landmarks
 from landmark_choices import landmark_choices
 
 # Build your program below:
@@ -63,15 +63,15 @@ def new_route(start_point=None, end_point=None):
     print("Alright, goodbye!")
 
 def get_route(start_point, end_point):
-  start_stations = vc_landmarks[start_point]
-  end_stations = vc_landmarks[end_point]
+  start_stations = landmarks[start_point]
+  end_stations = landmarks[end_point]
   routes = []
   for start_station in start_stations:
     for end_station in end_stations:
       if start_station == end_station:
         print("You're already there!")
         return
-      route = bfs(vc_metro, start_station, end_station)
+      route = bfs(mrt_links, start_station, end_station)
       if route:
         routes.append(route)
   shortest_route = min(routes, key=len)

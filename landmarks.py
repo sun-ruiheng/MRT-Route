@@ -1,5 +1,5 @@
 
-vc_landmarks = {
+landmarks = {
 'Changi Airport': set(['Changi Airport']),
 'Esplanade': set(['Esplanade']),
 'Gardens by the Bay': set(['Bayfront']),
